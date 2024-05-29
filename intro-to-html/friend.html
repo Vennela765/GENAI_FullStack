@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>friend</title>
+        <style>
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .text-box {
+            font-size: 18px;
+            border: none;
+            width: 300px;
+            vertical-align: middle;
+        }
+
+        .tweet-button {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+        .friends-container {
+            display: flex;
+            margin-top: 15px;
+            
+        }
+
+        .friend {
+            margin-right: 10px;
+        }
+
+        .add {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 8px;
+            margin-bottom: 4px;
+        }
+
+        .mutual {
+            margin-left: 8px;
+            color: rgb(100, 100, 100);
+            margin-bottom: 12px;
+        }
+
+        .icon {
+            background-color: rgb(24, 119, 242);
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: none;
+            border-radius: 3px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            margin-left: 8px;
+        }
+        </style>
+    </head>
+
+
+    <body>
+
+        
+        <div class="tweet">
+            <img class="profile-picture" src="thumbnails/cat.jpg">
+            <input type="text" class="text-box" placeholder="What's happening?">
+            <button class="tweet-button">Tweet</button>
+        </div>
+        <div class="friends-container">
+            <div class="friend">
+                <img class="add" src="thumbnails/cat.jpg">
+                <p class="name">Ayla</p>
+                <p class="mutual">10 mutual friends</p>
+                <button class="icon">Add Friend</button>
+            </div>
+            <div class="friend">
+                <img class="add" src="thumbnails/cad.jpg">
+                <p class="name">Vironica</p>
+                <p class="mutual">3 mutual friends</p>
+                <button class="icon">Add Friend</button>
+            </div>
+            <div class="friend">
+                <img class="add" src="thumbnails/dog1.jpg">
+                <p class="name">Grin</p>
+                <p class="mutual">6 mutual friends</p>
+                <button class="icon">Add Friend</button>
+            </div>
+        </div>
+    </body>
+
+</html>

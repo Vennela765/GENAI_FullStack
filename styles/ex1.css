@@ -1,0 +1,16 @@
+.model{
+    color: blueviolet;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text{
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+}
+.underlined {
+    text-decoration: underline;
+  }
